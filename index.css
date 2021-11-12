@@ -1,0 +1,65 @@
+/*Universal styles*/
+html {
+    font-size: 22px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'EB Garamond', serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mate SC', serif;
+}
+
+/*Header*/
+
+header {
+    background-color: #02023d;
+    color: seashell;
+    padding: 0 10px 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 5px 10px 20px;
+}
+.toggler img {
+    width: 50px;
+    cursor: pointer;
+}
+.toggler .open {
+    display: block;
+}
+.toggler .close {
+    display: none;
+}
+.toggler.opened .open {
+    display: none;
+}
+.toggler.opened .close {
+    display: block;
+}
+.mobile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+nav a {
+    color: seashell;
+    text-decoration: none;
+    font-family: 'Mate SC', serif;
+}
+nav a:hover {
+    color: #d4d413;
+}
+
