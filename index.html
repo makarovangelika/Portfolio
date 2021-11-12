@@ -5,17 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio of Angelika</title>
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400&family=Mate+SC&display=swap" rel="stylesheet"> 
 </head>
 <body>
     <header>
-        <h1>Angelika Makarova</h1>
+        <div class="mobile-header">
+            <h1>Angelika Makarova</h1>
+            <div class="toggler">
+                <div class="open">
+                    <img src="./images/burger-icon.svg" alt="hamburger menu">
+                </div>
+                <div class="close">
+                    <img src="./images/close-icon.png" alt="close menu button">
+                </div>
+            </div>
+        </div>
         <nav>
             <a href="#about">About me</a>
             <a href="#projects">Projects</a>
             <a href="#skills">Skills</a>
-            <a href="./contact.html">Contact</a>
+            <a href="contact.html">Contact</a>
         </nav>
     </header>
+    <script src="script.js"></script>
 </body>
 </html>
