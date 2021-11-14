@@ -49,21 +49,57 @@ h1 {
     justify-content: space-between;
     align-items: center;
 }
-nav {
+nav.header-menu {
     display: none;
     flex-direction: column;
     align-items: flex-end;
 }
-nav.opened {
+nav.header-menu.opened {
     display: flex;
     margin-top: 10px;
 }
-nav a {
+nav.header-menu a {
     color: seashell;
     text-decoration: none;
     font-family: 'Mate SC', serif;
 }
-nav a:hover {
+nav.header-menu a:hover {
     color: #d4d413;
 }
 
+@media only screen and (min-width: 576px) {
+    .toggler {
+        display: none;
+    }
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav.header-menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        margin-top: 10px;
+    }
+    h1 {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 15px 10px;
+        position: fixed;
+    }
+    nav.header-menu {
+        width: auto;
+        margin-top: 0;
+    }
+    nav.header-menu a {
+        margin: 0 20px;
+    }
+}
