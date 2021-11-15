@@ -133,7 +133,7 @@ h2 {
 #about .photo {
     text-align: center;
 }
-#about a:hover {
+a:hover {
     text-decoration: none;
 }
 
