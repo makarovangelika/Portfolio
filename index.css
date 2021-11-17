@@ -126,6 +126,8 @@ nav.header-menu a:hover {
 
 h2 {
     font-size: 1.3rem;
+    color: #02023d;
+    margin-bottom: 10px;
 }
 #about img {
     width: 90%;
@@ -148,4 +150,49 @@ a:hover {
     #about .photo {
         margin-left: 10px;
     }
+}
+
+/*Projects section*/
+
+#projects h3 {
+    display: inline-block;
+}
+h3 {
+    font-size: 1rem;
+    margin: 10px 0 15px;
+}
+#projects summary {
+    cursor: pointer;
+}
+#projects summary:hover {
+    color: #060693;
+}
+#projects .project-presentation {
+    display: flex;
+    flex-direction: column;
+}
+#projects .project-buttons {
+    display: flex;
+    justify-content: center;
+}
+.project-buttons button {
+    margin-right: 20px;
+    padding: 5px 10px;
+    background-color: white;
+    border: 2px solid black;
+}
+.project-buttons button a, .read-more-button  {
+    text-decoration: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: black;
+    font-family: 'Mate SC', serif;
+}
+.project-buttons button:hover {
+    background-color: #060693;
+    border-color: #060693;
+    color: seashell;
+}
+.project-buttons button:hover a {
+    color: seashell;
 }
