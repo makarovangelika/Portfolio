@@ -167,32 +167,28 @@ h3 {
 #projects summary:hover {
     color: #060693;
 }
-#projects .project-presentation {
+.project-presentation {
     display: flex;
     flex-direction: column;
 }
-#projects .project-buttons {
+#projects .button-container {
     display: flex;
     justify-content: center;
 }
-.project-buttons button {
+.button {
     margin-right: 20px;
     padding: 5px 10px;
     background-color: white;
     border: 2px solid black;
-}
-.project-buttons button a, .read-more-button  {
     text-decoration: none;
     font-size: 24px;
     cursor: pointer;
     color: black;
     font-family: 'Mate SC', serif;
+    transition: all 500ms;
 }
-.project-buttons button:hover {
+.button:hover {
     background-color: #060693;
     border-color: #060693;
-    color: seashell;
-}
-.project-buttons button:hover a {
     color: seashell;
 }
