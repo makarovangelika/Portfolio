@@ -7,6 +7,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'EB Garamond', serif;
+    color: rgb(43, 39, 39)
 }
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
@@ -126,7 +127,7 @@ nav.header-menu a:hover {
 
 h2 {
     font-size: 1.3rem;
-    color: #02023d;
+    color: #181841;
     margin-bottom: 10px;
 }
 #about img {
@@ -165,30 +166,54 @@ h3 {
     cursor: pointer;
 }
 #projects summary:hover {
-    color: #060693;
+    color: #454597;
 }
 .project-presentation {
     display: flex;
     flex-direction: column;
 }
-#projects .button-container {
+.project-presentation .button-container {
     display: flex;
     justify-content: center;
+    margin-bottom: 25px;
 }
 .button {
     margin-right: 20px;
     padding: 5px 10px;
-    background-color: white;
-    border: 2px solid black;
+    background-color: seashell;
+    border: 2px solid rgb(43, 39, 39);
     text-decoration: none;
     font-size: 24px;
+    color: rgb(43, 39, 39);
     cursor: pointer;
-    color: black;
     font-family: 'Mate SC', serif;
     transition: all 500ms;
 }
 .button:hover {
-    background-color: #060693;
-    border-color: #060693;
+    background-color: #454597;
+    border-color: #454597;
     color: seashell;
+}
+
+@media only screen and (min-width: 768px) {
+    .project-presentation {
+        flex-direction: row;
+        margin-bottom: 25px;
+    }
+    .project-presentation img {
+        width: 60%;
+    }
+    .project-presentation .project-info {
+        width: 40%;
+        padding-left: 10px;
+    }
+    .js-project .button-container {
+        justify-content: flex-start;
+    }
+}
+
+.js-project .read-more {
+    border: 2px solid #454597;
+    margin-top: 10px;
+    padding: 0 5px;
 }
