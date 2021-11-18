@@ -213,9 +213,29 @@ h3 {
         justify-content: flex-start;
     }
 }
-
+.js-project {
+    margin-bottom: 10px;
+}
 .js-project .read-more {
     border: 2px solid #454597;
-    margin-top: 10px;
     padding: 0 5px;
+    margin-top: 20px;
+    display: none;
+}
+.read-more-button.opened {
+    display: none;
+}
+.js-project .read-more.opened {
+    display: block;
+}
+
+/*Skills section*/
+
+#skills span {
+    margin-right: 20px;
+    padding: 5px 10px;
+    background-color: seashell;
+    border: 1.3px solid rgb(43, 39, 39);
+    font-size: 24px;
+    font-family: 'Mate SC', serif;
 }
