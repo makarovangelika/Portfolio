@@ -6,7 +6,7 @@ function toggleMenu() {
 }
 burgerButton.addEventListener("click", toggleMenu);
 
-let readmoreButton = document.querySelectorAll("[data-target-id]");
+let readmoreButton = document.querySelectorAll("[data-expand]");
 for (element of readmoreButton) {
     element.addEventListener("click", function (event) {
         event.target.classList.toggle("opened");

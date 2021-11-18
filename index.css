@@ -223,7 +223,10 @@ h3 {
     display: none;
 }
 .read-more-button.opened {
-    display: none;
+    background-color: #454597;
+    border-color: #454597;
+    color: seashell;
+    box-shadow: -5px 4px 5px #454597;
 }
 .js-project .read-more.opened {
     display: block;
