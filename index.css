@@ -181,18 +181,20 @@ h3 {
     margin-right: 20px;
     padding: 5px 10px;
     background-color: seashell;
-    border: 2px solid rgb(43, 39, 39);
+    border: 1.3px solid rgb(43, 39, 39);
     text-decoration: none;
     font-size: 24px;
     color: rgb(43, 39, 39);
     cursor: pointer;
     font-family: 'Mate SC', serif;
+    box-shadow: -5px 4px 5px rgb(43, 39, 39);
     transition: all 500ms;
 }
 .button:hover {
     background-color: #454597;
     border-color: #454597;
     color: seashell;
+    box-shadow: -5px 4px 5px #454597;
 }
 
 @media only screen and (min-width: 768px) {
