@@ -232,10 +232,20 @@ h3 {
 /*Skills section*/
 
 #skills span {
-    margin-right: 20px;
+    margin: 0 20px 10px 0;
     padding: 5px 10px;
     background-color: seashell;
     border: 1.3px solid rgb(43, 39, 39);
-    font-size: 24px;
+    font-size: 22px;
     font-family: 'Mate SC', serif;
+}
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@media only screen and (min-width: 576px) {
+    .skills-container {
+        justify-content: flex-start;
+    }
 }
