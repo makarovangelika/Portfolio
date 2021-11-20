@@ -177,6 +177,10 @@ h3 {
     justify-content: center;
     margin-bottom: 25px;
 }
+.js-project .button-container {
+    display: flex;
+    justify-content: center;
+}
 .button {
     margin-right: 20px;
     padding: 5px 10px;
@@ -251,4 +255,27 @@ h3 {
     .skills-container {
         justify-content: flex-start;
     }
+}
+
+/*Footer-section*/
+footer {
+    background-color: #02023d;
+    color: seashell;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 5px;
+}
+.contact-icon {
+    height: 32px;
+    margin-right: 5px;
+}
+footer .contact-link {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+footer .contact-link a {
+    color: seashell;
+    text-decoration: none;
 }
