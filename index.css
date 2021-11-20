@@ -279,3 +279,24 @@ footer .contact-link a {
     color: seashell;
     text-decoration: none;
 }
+
+/*Contact page*/
+
+.contact-h2 {
+    margin-top: 20px;
+}
+.contact-page-icon {
+    height: 32px;
+    margin-right: 10px;
+}
+.contact-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+@media only screen and (min-width: 992px) {
+    .contact-main {
+        margin-top: 88px;
+    }
+}
