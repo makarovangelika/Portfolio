@@ -85,7 +85,7 @@ nav.header-menu a:hover {
     .toggler {
         display: none;
     }
-    header {
+    header .header-container {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -103,9 +103,13 @@ nav.header-menu a:hover {
 }
 
 @media only screen and (min-width: 992px) {
-    header {
+    header .header-container {
         flex-direction: row;
         justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    header {
         padding: 15px 10px;
         position: fixed;
         top: 0;
