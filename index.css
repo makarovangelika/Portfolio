@@ -72,12 +72,12 @@ nav.header-menu.opened {
     display: flex;
     margin-top: 10px;
 }
-nav.header-menu a {
+header a {
     color: seashell;
     text-decoration: none;
     font-family: 'Mate SC', serif;
 }
-nav.header-menu a:hover {
+header a:hover {
     color: #d4d413;
 }
 
