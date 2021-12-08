@@ -154,7 +154,7 @@ a:hover {
         padding-top: 20px;
     }
     #about .photo {
-        margin-left: 10px;
+        margin-left: 25px;
     }
 }
 
@@ -216,7 +216,7 @@ h3 {
     }
     .project-presentation .project-info {
         width: 40%;
-        padding-left: 10px;
+        padding-left: 25px;
     }
     .js-project .button-container {
         justify-content: flex-start;
