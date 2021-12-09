@@ -18,8 +18,13 @@ for (element of readmoreButton) {
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
+        const headerOffset = 68;
+        const element = document.querySelector(this.getAttribute('href'));
+        const elementPosition = element.getBoundingClientRect().top;
+        const offsetPosition = elementPosition - headerOffset;
+        window.scrollTo({
+            top: offsetPosition,
+            behavior: "smooth"
+       });
     });
 });
