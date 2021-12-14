@@ -221,6 +221,9 @@ h3 {
     .js-project .button-container {
         justify-content: flex-start;
     }
+    .button-container.with-image {
+        justify-content: center;
+    }
 }
 .js-project {
     margin-bottom: 10px;
