@@ -181,6 +181,7 @@ h3 {
     display: flex;
     justify-content: center;
     margin-bottom: 25px;
+    flex-wrap: wrap;
 }
 .js-project .button-container {
     display: flex;
@@ -198,6 +199,8 @@ h3 {
     font-family: 'Mate SC', serif;
     box-shadow: -5px 4px 5px rgb(43, 39, 39);
     transition: all 500ms;
+    text-align: center;
+    margin-bottom: 20px;
 }
 .button:hover {
     background-color: #454597;
@@ -209,6 +212,7 @@ h3 {
 @media only screen and (min-width: 768px) {
     .project-presentation {
         flex-direction: row;
+        align-items: flex-start;
         margin-bottom: 25px;
     }
     .project-presentation img {
